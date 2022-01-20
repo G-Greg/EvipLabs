@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{48F4E51B-0DE9-47F5-8D9B-D115A767B7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{210E4193-84B9-423A-AA51-E5F21C40FCC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{45BA95B8-8F5F-4B3B-91DE-0216FFD7A0BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48F4E51B-0DE9-47F5-8D9B-D115A767B7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F4E51B-0DE9-47F5-8D9B-D115A767B7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F4E51B-0DE9-47F5-8D9B-D115A767B7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F4E51B-0DE9-47F5-8D9B-D115A767B7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210E4193-84B9-423A-AA51-E5F21C40FCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210E4193-84B9-423A-AA51-E5F21C40FCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210E4193-84B9-423A-AA51-E5F21C40FCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210E4193-84B9-423A-AA51-E5F21C40FCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BA95B8-8F5F-4B3B-91DE-0216FFD7A0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BA95B8-8F5F-4B3B-91DE-0216FFD7A0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BA95B8-8F5F-4B3B-91DE-0216FFD7A0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BA95B8-8F5F-4B3B-91DE-0216FFD7A0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD1E7266-2118-44F6-8397-857607351C79}
+	EndGlobalSection
+EndGlobal

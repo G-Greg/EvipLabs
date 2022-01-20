@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="minta_zh2_2021.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:minta_zh2_2021"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Orientation="Vertical">
+        
+        <TextBlock Text="Szia!" TextWrapping="Wrap"/>
+        <Slider Name="slider" Width="200" HorizontalAlignment="Left" Value="{x:Bind Path=DataModel.SliderValue, Mode=TwoWay}"/>
+        <Button Content="Mehet" Height="30" Width="80" Foreground="DarkRed" Command="{x:Bind ButtonCommand}" CommandParameter="{Binding ElementName=slider, Path=Value}"/>
+        <Rectangle Height="30" Width="80" HorizontalAlignment="Left" Fill="{x:Bind Path=DataModel.RectangleFill, Mode=TwoWay}" />
+
+    </StackPanel>
+</Page>
